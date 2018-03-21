@@ -392,7 +392,6 @@ export default {
       this.image = ''
       this.file = null
       this.imageObject = null
-      this.$refs.previewCanvas.style.backgroundColor = 'rgba(200,200,200,.25)'
       this.$refs.previewCanvas.width = this.previewWidth * this.pixelRatio
       this.$emit('remove')
     },
